@@ -1,0 +1,19 @@
+PODS:
+  - CrashLogManager (0.1.0):
+    - CrashLogManager/IQParseSDK (= 0.1.0)
+  - CrashLogManager/IQParseSDK (0.1.0)
+  - FBSnapshotTestCase (1.4)
+
+DEPENDENCIES:
+  - CrashLogManager (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CrashLogManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CrashLogManager: 50aba8e18dd877148fbe5d39a70bb4d0d603bb2c
+  FBSnapshotTestCase: f9f225b5ba11c8d8c09075590490df16314e4d62
+
+COCOAPODS: 0.35.0.rc1

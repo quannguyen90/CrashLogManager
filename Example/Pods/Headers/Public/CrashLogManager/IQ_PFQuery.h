@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFQuery.h

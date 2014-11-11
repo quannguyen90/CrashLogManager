@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/CrashLogManager/IQParseSDK/IQURLConnection.h
