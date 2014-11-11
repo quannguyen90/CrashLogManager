@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
     s.resource_bundles = {
         'CrashLog' => ['Pod/Assets/*.png']
     }
+
     s.subspec 'IQParseSDK' do |s1|
         s1.source_files = 'Pod/Classes/CrashLogManager/IQParseSDK/*.{h,m}'
     end
