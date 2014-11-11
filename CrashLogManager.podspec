@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
     s.name             = "CrashLogManager"
-    s.version          = "0.1.0"
+    s.version          = "0.1.1"
     s.summary          = "CrashLogManager."
 
     s.homepage         = "https://github.com/quannguyen90/CrashLogManager"
