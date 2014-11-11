@@ -10,7 +10,21 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>00D6DF9DAC1477CA757976FA</key>
+		<key>0040885A6388FE9B07C27219</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>691BF0E108096055B2F418BF</string>
+				<string>ACCDA41EA86881C4CEF91AAD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>01FABCD582211F39B239B656</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -19,16 +33,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQ_PFImageView.m</string>
+			<string>IQ_Base64.m</string>
 			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFImageView.m</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_Base64.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>01612A57D6A0D57BA8DBE326</key>
+		<key>022B03C7B8B679B48C02C329</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4679BA41E605D259DA57CD03</string>
+			<string>65237BA0BDF552924C41DAE4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -37,7 +51,449 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>02C105A243C8C42D068D213A</key>
+		<key>028310FE7B44B5B83CCEF179</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B93693000D3732A9B641F2EB</string>
+				<string>152766E352C6BF85E5D21A79</string>
+				<string>FEE12394025E3D121D68C4B1</string>
+				<string>9EA84F6916D80582D7762A9C</string>
+				<string>462506E11FBAA555A3EAC182</string>
+				<string>0040885A6388FE9B07C27219</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>02942A980BC5752C4B26897A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-CrashLogManager.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>02AB973553AC17548C2F38BC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Tests-FBSnapshotTestCase.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>03F3F1848B402CCB4562F2A4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4E26ADF0C88FC771738B37D9</string>
+				<string>DF8A021E2FDE387A0FC9D9AB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0482DF7460923873ADA3A9B2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQHTTPConstants.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQHTTPConstants.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>07F408C2A074E1334935BA6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B53CC21CA1684B37F82B4049</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0800A54ED2962A0B65416796</key>
+		<dict>
+			<key>fileRef</key>
+			<string>01FABCD582211F39B239B656</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>09F9AA1E7275836608F0675A</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>0BD78930718C5361CAC31623</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-CrashLogManager-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0BEEF1967BFD42665B617A6E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIImage+Compare.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C14F07EEA5EEF58FBB3AC93</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Tests-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0D6AC2271848C7977C324628</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FC6EF002F03B430B70416DC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0F1512DC3168995DFC0C8A09</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CrashLogManager-CrashLogManager.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1183196CC52AA01900B15CEC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>85EA0D20E078F43A1248585E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>141285CE4114F2C115070D79</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>99620BF23520A4A4867C0392</string>
+				<string>BCF4477E3F286703F6205357</string>
+				<string>A63BC265E69BE86546230577</string>
+				<string>7141435027BEB693636EFFB9</string>
+				<string>9371BCCF56CF26B2103B9703</string>
+				<string>C6C65D5EC1C06E5358BB9F39</string>
+				<string>5ABA03EADFB6B193E56BC8A8</string>
+				<string>0800A54ED2962A0B65416796</string>
+				<string>E6811F27BA14A8FD01185B67</string>
+				<string>683C86EBC4FA977FC615D41C</string>
+				<string>80EBA53BB34CA6895B7C7BD1</string>
+				<string>32794CA9B6488785E5939E2E</string>
+				<string>CC15A6984C174C2E6C6A6D7E</string>
+				<string>B30FA8850FE000D16CA1AB55</string>
+				<string>805587C7599F8D0F9B05A871</string>
+				<string>A603879D9076468FEAE47E18</string>
+				<string>B52FE69D2DD72430EEC83F65</string>
+				<string>832ED270A1D1CC39B139677C</string>
+				<string>827D15D52479D4E4EDC4B8E0</string>
+				<string>D09FA46611E5388FE0462A0E</string>
+				<string>F42BEE8C1F31C5D93188E1F0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>152766E352C6BF85E5D21A79</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>554724F1050DB8FCE71161A6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>164EC25CF54DA2B7CF5E97A4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7575B4002001AC0F333AF823</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>17E61F6B2805F70578084709</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0482DF7460923873ADA3A9B2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>18B1D4D04624130CE05E6962</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIImage+Diff.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1948646C265281F0F9EE4406</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>199015A5C28E661E76F4DEF2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>46C8BEF356CBB0E9F6BBBF7D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>1BD028E520E99B4445E85808</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BBFFFF45A6865155AFAF0836</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>1C1A38A4E252450E6B8A22F5</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>A74DDAEEE5BB3BB767C63D4F</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2CD946EEB3ED4B3C795C87A5</string>
+			<key>remoteInfo</key>
+			<string>Pods-Tests-CrashLogManager</string>
+		</dict>
+		<key>1EBC6C8A5566BBA3552038FD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>80FD75EDB40D53E3083CE13B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>20781BC60C13844ACDFBF2A9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQURLConnection.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQURLConnection.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>218774FFB964FD97906BEA8F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CrashLogManager.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>22A2A375479D6B9B9EC9916B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Tests-FBSnapshotTestCase</string>
+			<key>target</key>
+			<string>6E3DE23F31D7108B1E894416</string>
+			<key>targetProxy</key>
+			<string>454F9E9B8065EF3472E2D84A</string>
+		</dict>
+		<key>2347EBCD6866444932784BF6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EE88EAE693CDD800FC32C96E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2368C449AC48D3154900F52C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>39BE99793DB48E3E78A14C73</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-CrashLogManager-CrashLogManager/Pods-CrashLogManager-CrashLogManager-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>24FB9E1854D0FBDBECE4D93D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3CE02DA69C7CC7B674F4D873</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>26D7224A71C0A2DF84B53168</key>
+		<dict>
+			<key>fileRef</key>
+			<string>80FD75EDB40D53E3083CE13B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26F3765FAB1152FFC3B1233D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>CrashLog</string>
+			<key>target</key>
+			<string>6B842A2EC9CF3CD518686B62</string>
+			<key>targetProxy</key>
+			<string>EC1E3E18AD9A2ADA482B5B97</string>
+		</dict>
+		<key>27D1413BCAA2DC5BE1D71AD8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Tests-CrashLogManager.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>29E0C007F9614920C5027B72</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -99,104 +555,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>05E118C38559F6AE0E90368C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2F5A0C8DABC60B73A9D03F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>076B43FE6731DAC1D150F416</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>370BF4639CC555B07A638C4D</string>
-				<string>5D93197574690BEEA429DF90</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>07BC2B7C470BC40778DDD90E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7B75F94D250B47E347F69ADB</string>
-				<string>9103B417F09261B958C9389D</string>
-				<string>46C6423E0E75F680D5BB7E4E</string>
-				<string>4FCE17D9BFD34D7754C52C18</string>
-				<string>A800B656E54C9D3C38FA910A</string>
-				<string>A8AFA88629F1B0623EB0B7A0</string>
-				<string>41E0FB2DB24F4991A2CA5643</string>
-				<string>C8274F2FB7D4CDA04AB3CFE1</string>
-				<string>2A5553826972B1CEC60823E0</string>
-				<string>9E5F523030E0F22A4139B47A</string>
-				<string>3C26D871F6D5DA54EEFF9059</string>
-				<string>11841E4276620E87B2015EA6</string>
-				<string>17E9B25E858DB52D2C122435</string>
-				<string>7C102C7422B37579B14CC87A</string>
-				<string>B8A1BDA2A9A61893087738CB</string>
-				<string>DB63BBC7CBF49EE1B2AB0E4E</string>
-				<string>05E118C38559F6AE0E90368C</string>
-				<string>FF0B751F25961B837EE0A0D2</string>
-				<string>42F3133D551D714FD7B6DFFB</string>
-				<string>1BF63B4152BAD8FD979D7313</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>080AF06E6666020F5C15C39F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CrashLogManager-CrashLogManager-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0BA0859DDDCF7AF9E8B033C4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66EBC9135590BD6510729375</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0C8CB781F8A34A1D2083000E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F4EDC513F67787D114FEAA3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0FBBA0B6D59158EAABC62F8D</key>
+		<key>2ACC6AB35ECBA2EA1096638A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -204,224 +563,26 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQ_PFConstants.m</string>
 			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFConstants.m</string>
+			<string>Pods-Tests-FBSnapshotTestCase-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>11841E4276620E87B2015EA6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8AFA997843332AD59D9E6BE6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>11A8FD910B5A5BCED9881DB5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-FBSnapshotTestCase-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>11CB1C4F3897DDF2F27A3D87</key>
-		<dict>
-			<key>fileRef</key>
-			<string>59206E66415CB08B708718B6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>120CC85F347CDB4124F8E363</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQHTTPService.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQHTTPService.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13367F9DFF09D241F381CB80</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQ_PFConstants.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFConstants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13DCB9AE205B8DC7BB24FDE3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-CrashLogManager-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E40FADFE6F740BFBF78448</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-CrashLogManager-CrashLogManager.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>17E9B25E858DB52D2C122435</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7161D0C3C0232F7E96ADBDE2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>19D99E777787DE3194034120</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQ_PFACL.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFACL.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BF63B4152BAD8FD979D7313</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D4E36A54824E29A3B46F2AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1C5E2987F5ED95A1200E9B13</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-CrashLogManager-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C62EE41FB45DD224FCAAA2E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1DA68DC668D9FEF4E7AD7619</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8C006C76FD8358AA8CEC41D9</string>
-				<string>11A8FD910B5A5BCED9881DB5</string>
-				<string>F32BAF30672581644D37CBC1</string>
-				<string>E86D13F866743DD1C2773131</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-Tests-FBSnapshotTestCase</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2159FB2C3CD9532C9B37507A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36A9D6E32B6F11C78514A947</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2306500602B188736EF42CF4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23AC920704E71A8714CAE68A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F21AAB59AE4C28F402F39BBC</string>
-				<string>B7BBD5C6326001017712B92B</string>
-				<string>9B17D0D007770C370B7E5218</string>
-				<string>3F69233CC2AF4DC19E252F10</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CrashLogManager</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25A96CBD114390333DF0A80B</key>
+		<key>2CD946EEB3ED4B3C795C87A5</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>6AEC0D0E7673F499F1F9A28C</string>
+			<string>441D24097EE64675C3A8416B</string>
 			<key>buildPhases</key>
 			<array>
-				<string>C0E34EF583FF6A873ECC27EE</string>
-				<string>3B286F76DB0B770D0F2B14C6</string>
-				<string>5CF3AC8BB1AF3C921FA859C7</string>
+				<string>5F917EFE04C9D678AFA21777</string>
+				<string>CC58255229DF70718A8288C7</string>
+				<string>A041F6930EE2DDD6251A308F</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>BA2C3A1FD79E3C396B7FC456</string>
+				<string>76B8741838CD4B9B4DC13068</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -430,231 +591,29 @@
 			<key>productName</key>
 			<string>Pods-Tests-CrashLogManager</string>
 			<key>productReference</key>
-			<string>8F20075433D821A46E7F9919</string>
+			<string>27D1413BCAA2DC5BE1D71AD8</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>25DAD2DABAA242713450A01A</key>
+		<key>2DFF5E3770F90EB6AECC93F4</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CrashLogManager.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25DB1D8CC5E0DEE5A4DE24E1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0FBBA0B6D59158EAABC62F8D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>26E79EB261E57449CDF5CE03</key>
-		<dict>
-			<key>fileRef</key>
-			<string>862055803C35F6B0DB22FE89</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>28C0AFFDAABFF11EF112B2DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQHTTPConstants.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQHTTPConstants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29961FF56F958EE90B92EFC7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FBSnapshotTestController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29C32DDFFD5AFF09A3F2D488</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>995BD861782FAE8B3A734BBD</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>570126CAF5F3A9CA94CAD9B7</string>
-			<key>remoteInfo</key>
-			<string>Pods-CrashLogManager-CrashLogManager</string>
-		</dict>
-		<key>2A5553826972B1CEC60823E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>19D99E777787DE3194034120</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D4DC51A5C30DEA65B4ACC51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQ_Base64.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_Base64.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2E2455052923D592D1E3D3DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2E344BB9FDB532FD8B9297D5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DF2CB8EF3B831D1044534F99</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>2EA3C8781CDED17322B4A211</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQPFHTTPService.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQPFHTTPService.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FB4BA3B9A8E44A07F668680</key>
-		<dict>
-			<key>buildConfigurations</key>
+			<key>children</key>
 			<array>
-				<string>FB8FC1C8654912F3C6EB7B84</string>
-				<string>58C6A5C12F2CF5B17C6F0E72</string>
+				<string>85EA0D20E078F43A1248585E</string>
+				<string>F672C4AEC4944B4963AFDA69</string>
+				<string>8DFDE9F9BFDE0C5014BA5B46</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>32099E61F03D4510EF2331FC</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>995BD861782FAE8B3A734BBD</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>62AC366F48FB14CEBB35FE3D</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-FBSnapshotTestCase</string>
-		</dict>
-		<key>32EBFFD0F72F9D6E2875CD7F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA6E037D7262E404B84A8582</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>352DE75CA51DB36F41C0D91B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIImage+Compare.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>356DBA805088EAF74856E698</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>IQURLConnection.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQURLConnection.h</string>
+			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>36A9D6E32B6F11C78514A947</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQ_PFObject.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFObject.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>370BF4639CC555B07A638C4D</key>
+		<key>32665415E6C3DB29D1BAB94B</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>080AF06E6666020F5C15C39F</string>
+			<string>C678D43D23E6960DF14A25A0</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -670,7 +629,7 @@
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-CrashLogManager-CrashLogManager/Pods-CrashLogManager-CrashLogManager-prefix.pch</string>
+				<string>Target Support Files/Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager-prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -700,10 +659,10 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>38F9C99216447817B452A848</key>
+		<key>32794CA9B6488785E5939E2E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>50DE16F17A8D3A01E1EA1955</string>
+			<string>F2C608C8F1207CDB9B35CB84</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -712,512 +671,24 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>39955C0440F8B591090CAC8D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A7DE2DF33907B70E2B631063</string>
-				<string>F2C5251B2958786B081D809E</string>
-				<string>682273F0D9A7F5EFE1A7D334</string>
-				<string>761210AEDDAFA336CFEEC917</string>
-				<string>EF74924557AD32D46DF95723</string>
-				<string>AEAF615AAC997BFDD2D29539</string>
-				<string>38F9C99216447817B452A848</string>
-				<string>A447B979EF11174B30FCA2EC</string>
-				<string>C23186BB66195E8C75B719D3</string>
-				<string>93A3D42115C4E168A3A140F9</string>
-				<string>25DB1D8CC5E0DEE5A4DE24E1</string>
-				<string>598DDDCD4EA165F0EB7000AD</string>
-				<string>92FF8264B36B10FCF54A9BC9</string>
-				<string>4487B6873071CCEB8DCEFE7E</string>
-				<string>6003EA6FFF8176BBBB393538</string>
-				<string>EB4BC8C7878D2C20B09DA88E</string>
-				<string>6E623F4E6003D8AF9C31F611</string>
-				<string>C556EB75B3136A9D66A0BF22</string>
-				<string>4BF4D428315157065D403E01</string>
-				<string>8F65BF858C8428F1F871BC2A</string>
-				<string>8CF6ECCF9E26D08C7571CD3D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>39E1319CEBC0981D053B1D38</key>
+		<key>334D0130D2FFC5D13636EEEA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>19D99E777787DE3194034120</string>
+			<string>DEA12585BB7F90471FA4059C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3B286F76DB0B770D0F2B14C6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F370E68CA0BB20606CDA267F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3C26D871F6D5DA54EEFF9059</key>
+		<key>33BB9145FF4330535F392950</key>
 		<dict>
 			<key>fileRef</key>
-			<string>13367F9DFF09D241F381CB80</string>
+			<string>F672C4AEC4944B4963AFDA69</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3CAC5819218C6C5C5C46B759</key>
+		<key>349E9E2993A0FD95E482A173</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>A24937E396AEBF94045CD24D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3F69233CC2AF4DC19E252F10</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>82B365B1102BA23BFDCAAB04</string>
-				<string>080AF06E6666020F5C15C39F</string>
-				<string>6AA83663D0DDD13B8CD1FB58</string>
-				<string>FADA3B01C209ADD458C1DB90</string>
-				<string>6D5E6798D29A06CD9180439A</string>
-				<string>A24937E396AEBF94045CD24D</string>
-				<string>1C5E2987F5ED95A1200E9B13</string>
-				<string>803921794E9FD87B9C3D8382</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-CrashLogManager-CrashLogManager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>412EF641942FFBBAB9DADF12</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9F42CF03EF088A294AF8E05A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>41E0FB2DB24F4991A2CA5643</key>
-		<dict>
-			<key>fileRef</key>
-			<string>356DBA805088EAF74856E698</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4237A63EBF3B565CFDCD5A84</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-CrashLogManager-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>42F3133D551D714FD7B6DFFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F6BF55A68C2210E52292979</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4487B6873071CCEB8DCEFE7E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00D6DF9DAC1477CA757976FA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>449129A5C95E6C3C6CFB706F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8F3B306B3B6BD99932BE7C12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>4563233B33E9E51EF1E01571</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>995BD861782FAE8B3A734BBD</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>25A96CBD114390333DF0A80B</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-CrashLogManager</string>
-		</dict>
-		<key>461255848B3A25DF597C09C2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>464F0329F2684D92CDA5995A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6FF3204145A1BE83BB6FB1B1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4679BA41E605D259DA57CD03</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQ_PFRelation.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFRelation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46C6423E0E75F680D5BB7E4E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4C945097F2FE1B674D061B93</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4932947810848035DC2FA5AB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>26E79EB261E57449CDF5CE03</string>
-				<string>F1CF19378EB266BDF652F8CA</string>
-				<string>7E3B1BFD57A489AC74045A8A</string>
-				<string>5BE9C5BE5AB29EE1BDACF2BE</string>
-				<string>FCF171E2079C73C52449A50D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>49BF5DA1D72081B861B66C98</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4C945097F2FE1B674D061B93</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>49CB497411964687F17A9D73</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>25DAD2DABAA242713450A01A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4AA0CF448E32F78DDD3F12F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C74A1F54FF6D75DCC094E2BD</string>
-				<string>862055803C35F6B0DB22FE89</string>
-				<string>2E2455052923D592D1E3D3DF</string>
-				<string>29961FF56F958EE90B92EFC7</string>
-				<string>C52D22C5C1BAA72254BBB688</string>
-				<string>352DE75CA51DB36F41C0D91B</string>
-				<string>B095A3912548B16971D59471</string>
-				<string>DBC3805FCA3B302377264A1A</string>
-				<string>1DA68DC668D9FEF4E7AD7619</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4AE0376767C7C4B526A347C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7161D0C3C0232F7E96ADBDE2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BF4D428315157065D403E01</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D581C78D322C13C9390AC6E1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>4C945097F2FE1B674D061B93</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQHTTPService.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQHTTPService.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4ECCC0805CDD4721FDAA8FA1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>59206E66415CB08B708718B6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4F397564BC46F4D1537F5332</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4237A63EBF3B565CFDCD5A84</string>
-				<string>13DCB9AE205B8DC7BB24FDE3</string>
-				<string>E7D7CFA34D156BC6FF997BEE</string>
-				<string>BC0DE0ADCC575FEF8210E3D8</string>
-				<string>75A8F2A938EB82058D33CC6B</string>
-				<string>C753596E77E2373EC05325DB</string>
-				<string>25DAD2DABAA242713450A01A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-CrashLogManager</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-CrashLogManager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4FCE17D9BFD34D7754C52C18</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66EBC9135590BD6510729375</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>50DE16F17A8D3A01E1EA1955</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQURLConnection.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQURLConnection.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5334ABF775C6AC60CB114411</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0C8CB781F8A34A1D2083000E</string>
-				<string>64EE370A51DDD6D52597B85B</string>
-				<string>C0D1BB5D3D9E00969DB65D36</string>
-				<string>2306500602B188736EF42CF4</string>
-				<string>C5CC306E38587AFDC89A6535</string>
-				<string>844BBC76427B246841F899AE</string>
-				<string>1C62EE41FB45DD224FCAAA2E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5543960F2926B39DA168768B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>CrashLog</string>
-			<key>target</key>
-			<string>674D29EC840F7302ADDEFF13</string>
-			<key>targetProxy</key>
-			<string>B081D42E81CA81C4268BD80D</string>
-		</dict>
-		<key>5697F6D2C1AB15308CF02822</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQPFHTTPService.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQPFHTTPService.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>570126CAF5F3A9CA94CAD9B7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>076B43FE6731DAC1D150F416</string>
-			<key>buildPhases</key>
-			<array>
-				<string>39955C0440F8B591090CAC8D</string>
-				<string>AB4BFE2BE4DEAC2AEC9A7ED6</string>
-				<string>07BC2B7C470BC40778DDD90E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>5543960F2926B39DA168768B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-CrashLogManager-CrashLogManager</string>
-			<key>productName</key>
-			<string>Pods-CrashLogManager-CrashLogManager</string>
-			<key>productReference</key>
-			<string>13E40FADFE6F740BFBF78448</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>58C6A5C12F2CF5B17C6F0E72</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>11A8FD910B5A5BCED9881DB5</string>
+			<string>867F33445FB85B7BCF040419</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -1264,99 +735,45 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>59206E66415CB08B708718B6</key>
+		<key>36AECC4B6AF51ACDE705C59E</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
+			<string>text</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<string>Pods-CrashLogManager-acknowledgements.markdown</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>598DDDCD4EA165F0EB7000AD</key>
+		<key>3822D8E5A2A7996D937B724F</key>
 		<dict>
-			<key>fileRef</key>
-			<string>7996DE134EAD77EC5EADCB2F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>599022AFFA723E5670B02FBD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B5ACF83A928C563274BA3393</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5994D98056255C5B4AE38472</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQPFHTTPService.m</string>
 			<key>path</key>
-			<string>libPods-CrashLogManager.a</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQPFHTTPService.m</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5BE9C5BE5AB29EE1BDACF2BE</key>
+		<key>38DA07E5E268179EEB97B009</key>
 		<dict>
 			<key>fileRef</key>
-			<string>352DE75CA51DB36F41C0D91B</string>
+			<string>62120A50718AAAA0C7626E72</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
 		</dict>
-		<key>5CF3AC8BB1AF3C921FA859C7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>87926054BFAE5C35595130D4</string>
-				<string>FA5F0EB0B07C24F6381418A6</string>
-				<string>49BF5DA1D72081B861B66C98</string>
-				<string>0BA0859DDDCF7AF9E8B033C4</string>
-				<string>A233BBF752B0B6376A05CC48</string>
-				<string>599022AFFA723E5670B02FBD</string>
-				<string>9E202322FB79485367A0B5B3</string>
-				<string>9C8402CF7B067E9C8698788B</string>
-				<string>39E1319CEBC0981D053B1D38</string>
-				<string>464F0329F2684D92CDA5995A</string>
-				<string>F309AE19C22A44329C587EF3</string>
-				<string>A4AD8265E19DBC7C156F426D</string>
-				<string>4AE0376767C7C4B526A347C2</string>
-				<string>87173E4704579056ED7194EC</string>
-				<string>2159FB2C3CD9532C9B37507A</string>
-				<string>F44B645395A939D7BCD794E5</string>
-				<string>760621E9DE69734999C3BA0C</string>
-				<string>32EBFFD0F72F9D6E2875CD7F</string>
-				<string>DA951F40F3748794B728D3D4</string>
-				<string>DF1E930A60DCF34885FDD233</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5D93197574690BEEA429DF90</key>
+		<key>3926197F0AEA47D33BB68FC8</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>080AF06E6666020F5C15C39F</string>
+			<string>C678D43D23E6960DF14A25A0</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -1368,7 +785,7 @@
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-CrashLogManager-CrashLogManager/Pods-CrashLogManager-CrashLogManager-prefix.pch</string>
+				<string>Target Support Files/Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager-prefix.pch</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -1403,64 +820,139 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>6003EA6FFF8176BBBB393538</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DB8428E6BBE39FF55578D9A9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>62AC366F48FB14CEBB35FE3D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2FB4BA3B9A8E44A07F668680</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4932947810848035DC2FA5AB</string>
-				<string>902A6684F055B0FE8B4F2E41</string>
-				<string>8873BD55E36E65489C54C977</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-FBSnapshotTestCase</string>
-			<key>productName</key>
-			<string>Pods-Tests-FBSnapshotTestCase</string>
-			<key>productReference</key>
-			<string>7129EAC6EDF2331B0054FC70</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>64EE370A51DDD6D52597B85B</key>
+		<key>39BE99793DB48E3E78A14C73</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
+			<string>Pods-CrashLogManager-CrashLogManager-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6598323FEB52586134F7DA26</key>
+		<key>3C6829DA4E840DFA29BB3AFE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3CE02DA69C7CC7B674F4D873</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQ_Parse.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_Parse.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3D478A663006401B333F16FA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>59206E66415CB08B708718B6</string>
+			<string>DB2EE3AD3E154AB056984073</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>669384DDE8EFACECC593D5FD</key>
+		<key>3EE8D4D5A601272FD8FFFABD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6A4CD85FCDC6D309D0B7AB31</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>428A7DFDAD1A023D31DF6316</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FC6EF002F03B430B70416DC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>42E2A7E033B9F814D6A9B59A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQMultipartFormData.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQMultipartFormData.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441D24097EE64675C3A8416B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>32665415E6C3DB29D1BAB94B</string>
+				<string>3926197F0AEA47D33BB68FC8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>44C0449B0B9A94DC614A5F8B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQ_Base64.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_Base64.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44EBFB650E139F7AEB412FD7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7575B4002001AC0F333AF823</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>454F9E9B8065EF3472E2D84A</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>A74DDAEEE5BB3BB767C63D4F</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>6E3DE23F31D7108B1E894416</string>
+			<key>remoteInfo</key>
+			<string>Pods-Tests-FBSnapshotTestCase</string>
+		</dict>
+		<key>459BD9F4E8D51661809DA4BF</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -1527,64 +1019,50 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>66AAE94428FFFF5AE64935A0</key>
+		<key>462506E11FBAA555A3EAC182</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>4F397564BC46F4D1537F5332</string>
-				<string>5334ABF775C6AC60CB114411</string>
+				<string>850A9AAE3CF0B3D9CA55EC59</string>
+				<string>02942A980BC5752C4B26897A</string>
+				<string>A4AD10FD0FA72A19D342EFF6</string>
+				<string>818AAEE18328D19062AE9ED2</string>
+				<string>27D1413BCAA2DC5BE1D71AD8</string>
+				<string>02AB973553AC17548C2F38BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Targets Support Files</string>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>66EBC9135590BD6510729375</key>
+		<key>46C8BEF356CBB0E9F6BBBF7D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQMultipartFormData.h</string>
+			<string>IQ_PFImageView.m</string>
 			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQMultipartFormData.h</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFImageView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>674D29EC840F7302ADDEFF13</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E595CA5921216388CD5B0C76</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0F4EDC513F67787D114FEAA3</string>
-				<string>461255848B3A25DF597C09C2</string>
-				<string>E2B39834E92CA5D0D79CF14F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CrashLog</string>
-			<key>productName</key>
-			<string>CrashLog</string>
-			<key>productReference</key>
-			<string>E482325E898CC10C7946BCC2</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>682273F0D9A7F5EFE1A7D334</key>
+		<key>47278EC3977B1BBE98E699DA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>120CC85F347CDB4124F8E363</string>
+			<string>DE2F8EB07EBF03A00A7410B2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>48FC485E73E70F7FB97ED116</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E78AB1597A7A407E5A255BD7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1593,20 +1071,38 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>6977F0797DEDCC51127501DA</key>
+		<key>4AE467912989C63AAFDD7098</key>
 		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>48FC485E73E70F7FB97ED116</string>
+				<string>A1EDAC1C21ECB8F8F8D3A501</string>
+				<string>EFB4C2DAB6098FBC858477EE</string>
+				<string>022B03C7B8B679B48C02C329</string>
+				<string>96E7618CFD342222ADE1C877</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>6AA83663D0DDD13B8CD1FB58</key>
+		<key>4C987952BA9C4A9BD29FCDE9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C287D889E501BD936422A19</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4C9A888A6015FCF12DB49E67</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0482DF7460923873ADA3A9B2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4CA233831546FB06B9FA62C7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1614,17 +1110,53 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQ_PFObject.m</string>
 			<key>path</key>
-			<string>Pods-CrashLogManager-CrashLogManager-dummy.m</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFObject.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6AEC0D0E7673F499F1F9A28C</key>
+		<key>4D8B0B90B59C3D77B784325A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ED91549F40875EF0D6924C0E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>4DD684FD96E61F94A783A680</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQHTTPService.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQHTTPService.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4E26ADF0C88FC771738B37D9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>85EA0D20E078F43A1248585E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4FF7D90143F47674968471B2</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>70CCE6CC4F2C6E7FC804B438</string>
-				<string>3CAC5819218C6C5C5C46B759</string>
+				<string>ECA443375CE677359FEF6FD1</string>
+				<string>349E9E2993A0FD95E482A173</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -1633,331 +1165,21 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>6D108FE36E1A02773CAA8564</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FB458E9631036A21CEFD805F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D5E6798D29A06CD9180439A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-CrashLogManager.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E623F4E6003D8AF9C31F611</key>
+		<key>502FEBBB92305A74A15D397A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4679BA41E605D259DA57CD03</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>6FF3204145A1BE83BB6FB1B1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQ_PFCloud.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFCloud.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>70CCE6CC4F2C6E7FC804B438</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A24937E396AEBF94045CD24D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7129EAC6EDF2331B0054FC70</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-FBSnapshotTestCase.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7161D0C3C0232F7E96ADBDE2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQ_PFGeoPoint.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFGeoPoint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73E45CB01A721BB859F62049</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQ_Base64.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_Base64.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75A8F2A938EB82058D33CC6B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-CrashLogManager-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>760621E9DE69734999C3BA0C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2F5A0C8DABC60B73A9D03F4</string>
+			<string>C1B09A0AADE9B449C950B57B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>761210AEDDAFA336CFEEC917</key>
+		<key>5174189C9C8F28BADC8AEE74</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BCB8002B1026CF767317728E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>762247720DEB81D14B2EE534</key>
-		<dict>
-			<key>fileRef</key>
-			<string>120CC85F347CDB4124F8E363</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>788D2F9943DC8F15E1B032C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>50DE16F17A8D3A01E1EA1955</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>7996DE134EAD77EC5EADCB2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQ_PFFile.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFFile.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B6EEACFCCC75236D09771BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQ_PFQuery.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFQuery.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B75F94D250B47E347F69ADB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F21AAB59AE4C28F402F39BBC</string>
+			<string>C1B09A0AADE9B449C950B57B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>7B82224D5B986B2F9FAAE08D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQ_PFCloud.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFCloud.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C102C7422B37579B14CC87A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B978F5DF8CA36EABCC47F207</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7C8F4BBDAF187091B968187B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQ_PFACL.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFACL.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7E3B1BFD57A489AC74045A8A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F32BAF30672581644D37CBC1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>803921794E9FD87B9C3D8382</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-CrashLogManager-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>82B365B1102BA23BFDCAAB04</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CrashLogManager-CrashLogManager.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>83BB88EF0F429B8B5849FE89</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E92234F9E4BAFC19845929E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>844BBC76427B246841F899AE</key>
+		<key>527CB71331508C3A8BF2BBC7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1970,67 +1192,48 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>85368B5DFFB363B9B8C865C6</key>
+		<key>5339CC068F941EE1E1D2DFDF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B095A3912548B16971D59471</string>
+			<string>EE88EAE693CDD800FC32C96E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>85CC1066DB934345E58367A1</key>
+		<key>554724F1050DB8FCE71161A6</key>
 		<dict>
-			<key>fileRef</key>
-			<string>2E2455052923D592D1E3D3DF</string>
+			<key>children</key>
+			<array>
+				<string>DB2EE3AD3E154AB056984073</string>
+				<string>FDCB7157E37C3CFBB10545C1</string>
+				<string>E3BDFAC63C337E62845D8524</string>
+				<string>69A43B3EE237908812EB43CA</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CrashLogManager</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>862055803C35F6B0DB22FE89</key>
+		<key>572A2017560869EE3DF41472</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FBSnapshotTestCase.m</string>
+			<string>FBSnapshotTestController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>87173E4704579056ED7194EC</key>
+		<key>5ABA03EADFB6B193E56BC8A8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B978F5DF8CA36EABCC47F207</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>87926054BFAE5C35595130D4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F21AAB59AE4C28F402F39BBC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8873BD55E36E65489C54C977</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E8859A54105286D703E95CA4</string>
-				<string>85CC1066DB934345E58367A1</string>
-				<string>8F8EBAD77B9851C01B52DABC</string>
-				<string>85368B5DFFB363B9B8C865C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8984AEDB2951017996B235AF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F349709EC9DC84D938CEF17C</string>
+			<string>20781BC60C13844ACDFBF2A9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2039,7 +1242,53 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>8AFA997843332AD59D9E6BE6</key>
+		<key>5D30AC79DFD89566715D6847</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-CrashLogManager-CrashLogManager-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5F917EFE04C9D678AFA21777</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A7E54A886B1D05311D5327B4</string>
+				<string>ED751495FE43C80CB23EFAC6</string>
+				<string>8B63124FED323A3998A3229B</string>
+				<string>FEC6CEDD220FBB4B4ADC505D</string>
+				<string>A35DBF46ADC602A730CA4E43</string>
+				<string>79382860F48A222426AE41B7</string>
+				<string>D9A2CC340F2E8C73F06BF15A</string>
+				<string>7932A08495B0C6E1F3AF4E4F</string>
+				<string>A4FFA4764F7D471B35C26032</string>
+				<string>9489162393C9EAA5BDDD25D8</string>
+				<string>E2361D3513FF7AEEDF23C285</string>
+				<string>ECFF60377461AC2D5A79CC62</string>
+				<string>DED766CFC263A01ACB8E2A3B</string>
+				<string>199015A5C28E661E76F4DEF2</string>
+				<string>CC4E1D1704E679F966CA2B84</string>
+				<string>C58177CB3D5D15DDA8CE548A</string>
+				<string>968F1897E0A4D4C46B080F26</string>
+				<string>828016FD9D4FCE4C48102093</string>
+				<string>4D8B0B90B59C3D77B784325A</string>
+				<string>24FB9E1854D0FBDBECE4D93D</string>
+				<string>E09AB6A4397D6F962A2E6A9F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>62120A50718AAAA0C7626E72</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2048,85 +1297,51 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IQ_PFFile.h</string>
+			<string>IQ_PFRelation.h</string>
 			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFFile.h</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFRelation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8AFAAB0C997FFD4F0B9043D3</key>
+		<key>6229B469ECBB8AE87267F15A</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>buildConfigurations</key>
 			<array>
-				<string>11CB1C4F3897DDF2F27A3D87</string>
+				<string>FD350F2137CD86375200EB06</string>
+				<string>AC3615D76EE2F82B2A1EEA48</string>
 			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
-		</dict>
-		<key>8B83A13D474A26F1BDF20327</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>986C33E18BB271AEFEA0B8B8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F0EFFE8136DC384C1CFA77A6</string>
-				<string>D8E1A8890A15ED0C605E6FEE</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>CAADAA9D23AD266F5FD59C43</string>
-			</array>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-CrashLogManager</string>
-			<key>productName</key>
-			<string>Pods-CrashLogManager</string>
-			<key>productReference</key>
-			<string>5994D98056255C5B4AE38472</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>8C006C76FD8358AA8CEC41D9</key>
+		<key>63EBB91CF71A49348AB62A40</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Tests-CrashLogManager</string>
+			<key>target</key>
+			<string>2CD946EEB3ED4B3C795C87A5</string>
+			<key>targetProxy</key>
+			<string>1C1A38A4E252450E6B8A22F5</string>
+		</dict>
+		<key>65237BA0BDF552924C41DAE4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Pods-Tests-FBSnapshotTestCase.xcconfig</string>
+			<string>UIImage+Compare.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8CF6ECCF9E26D08C7571CD3D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6AA83663D0DDD13B8CD1FB58</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8F20075433D821A46E7F9919</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-CrashLogManager.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8F3B306B3B6BD99932BE7C12</key>
+		<key>654C5D60C84EF2578F45036F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2141,10 +1356,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8F65BF858C8428F1F871BC2A</key>
+		<key>659061026E15EFC0DAE06D5A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CrashLogManager.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>683C86EBC4FA977FC615D41C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A9F8103853272D87D8E0A302</string>
+			<string>BB608A6AC64A961CDE1590DF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2153,109 +1381,85 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>8F8EBAD77B9851C01B52DABC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C52D22C5C1BAA72254BBB688</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>902A6684F055B0FE8B4F2E41</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6598323FEB52586134F7DA26</string>
-				<string>945B762CC1430ACD939CAE89</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9103B417F09261B958C9389D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>28C0AFFDAABFF11EF112B2DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>92FF8264B36B10FCF54A9BC9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DF2CB8EF3B831D1044534F99</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>93A3D42115C4E168A3A140F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B82224D5B986B2F9FAAE08D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>945B762CC1430ACD939CAE89</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6977F0797DEDCC51127501DA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>94BEDEE16B527F3DA22DFBA8</key>
+		<key>691BF0E108096055B2F418BF</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>4AA0CF448E32F78DDD3F12F4</string>
+				<string>36AECC4B6AF51ACDE705C59E</string>
+				<string>A0A6E9BE48BDCD6F545A3B3D</string>
+				<string>94B8AD8BA00DA7164672BFF9</string>
+				<string>0BD78930718C5361CAC31623</string>
+				<string>CB85D35D931942967D4E4475</string>
+				<string>659061026E15EFC0DAE06D5A</string>
+				<string>218774FFB964FD97906BEA8F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods</string>
+			<string>Pods-CrashLogManager</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-CrashLogManager</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>95A491EB31728DCF879B7C17</key>
+		<key>69A43B3EE237908812EB43CA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0F1512DC3168995DFC0C8A09</string>
+				<string>39BE99793DB48E3E78A14C73</string>
+				<string>81616C0DA892744DDA3B4F12</string>
+				<string>5D30AC79DFD89566715D6847</string>
+				<string>B0E7E38589432E1EB3F83D93</string>
+				<string>C678D43D23E6960DF14A25A0</string>
+				<string>C7CD39F29932F811751307C7</string>
+				<string>9B8FAA4A7983056DA291EFB2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/Pods-CrashLogManager-CrashLogManager</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6A4CD85FCDC6D309D0B7AB31</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D581C78D322C13C9390AC6E1</string>
+			<string>85EA0D20E078F43A1248585E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
 		</dict>
-		<key>9638FE04E5912D3832D91532</key>
+		<key>6A89101C0EA8D1B61D2FE4E7</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>995BD861782FAE8B3A734BBD</string>
+			<key>children</key>
+			<array>
+				<string>A20C7399A006069DDE4C3DE6</string>
+				<string>E78AB1597A7A407E5A255BD7</string>
+				<string>572A2017560869EE3DF41472</string>
+				<string>F618642716C911AC0D445AE3</string>
+				<string>0BEEF1967BFD42665B617A6E</string>
+				<string>65237BA0BDF552924C41DAE4</string>
+				<string>AFBEFFDD061D9CF95B3197C3</string>
+				<string>18B1D4D04624130CE05E6962</string>
+				<string>9B14EBB3A49E03CFAB64E511</string>
+			</array>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>674D29EC840F7302ADDEFF13</string>
-			<key>remoteInfo</key>
-			<string>CrashLog</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FBSnapshotTestCase</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>986C33E18BB271AEFEA0B8B8</key>
+		<key>6A9DA74233E55C26B87B69BA</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>D201A7E3FDE1646EC65E46DD</string>
-				<string>49CB497411964687F17A9D73</string>
+				<string>B264460BA33387031FB3EF65</string>
+				<string>09F9AA1E7275836608F0675A</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -2264,129 +1468,70 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>98A6519E7965725E9F98BA8F</key>
+		<key>6B842A2EC9CF3CD518686B62</key>
 		<dict>
-			<key>fileRef</key>
-			<string>7B6EEACFCCC75236D09771BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>995BD861782FAE8B3A734BBD</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
 			<key>buildConfigurationList</key>
-			<string>9E458C6D4D71CFF93E252BFC</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
+			<string>6A9DA74233E55C26B87B69BA</string>
+			<key>buildPhases</key>
 			<array>
-				<string>en</string>
+				<string>1948646C265281F0F9EE4406</string>
+				<string>96D8B2A6ABE5AFEDDEF28D92</string>
+				<string>7CC9AF2295D3D83F2EE761E1</string>
 			</array>
-			<key>mainGroup</key>
-			<string>BF8AC9EE068C5BC558D18697</string>
-			<key>productRefGroup</key>
-			<string>B9B4E8F979690E70ACE93553</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
+			<key>buildRules</key>
 			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>674D29EC840F7302ADDEFF13</string>
-				<string>8B83A13D474A26F1BDF20327</string>
-				<string>570126CAF5F3A9CA94CAD9B7</string>
-				<string>AB8BA2EA2F19EE8E65058036</string>
-				<string>25A96CBD114390333DF0A80B</string>
-				<string>62AC366F48FB14CEBB35FE3D</string>
-			</array>
-		</dict>
-		<key>9B17D0D007770C370B7E5218</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>28C0AFFDAABFF11EF112B2DF</string>
-				<string>8F3B306B3B6BD99932BE7C12</string>
-				<string>4C945097F2FE1B674D061B93</string>
-				<string>120CC85F347CDB4124F8E363</string>
-				<string>66EBC9135590BD6510729375</string>
-				<string>BCB8002B1026CF767317728E</string>
-				<string>2EA3C8781CDED17322B4A211</string>
-				<string>5697F6D2C1AB15308CF02822</string>
-				<string>B5ACF83A928C563274BA3393</string>
-				<string>F349709EC9DC84D938CEF17C</string>
-				<string>356DBA805088EAF74856E698</string>
-				<string>50DE16F17A8D3A01E1EA1955</string>
-				<string>2D4DC51A5C30DEA65B4ACC51</string>
-				<string>73E45CB01A721BB859F62049</string>
-				<string>19D99E777787DE3194034120</string>
-				<string>7C8F4BBDAF187091B968187B</string>
-				<string>6FF3204145A1BE83BB6FB1B1</string>
-				<string>7B82224D5B986B2F9FAAE08D</string>
-				<string>13367F9DFF09D241F381CB80</string>
-				<string>0FBBA0B6D59158EAABC62F8D</string>
-				<string>8AFA997843332AD59D9E6BE6</string>
-				<string>7996DE134EAD77EC5EADCB2F</string>
-				<string>7161D0C3C0232F7E96ADBDE2</string>
-				<string>DF2CB8EF3B831D1044534F99</string>
-				<string>B978F5DF8CA36EABCC47F207</string>
-				<string>00D6DF9DAC1477CA757976FA</string>
-				<string>36A9D6E32B6F11C78514A947</string>
-				<string>DB8428E6BBE39FF55578D9A9</string>
-				<string>9C8EFA30597A31827FD44F14</string>
-				<string>7B6EEACFCCC75236D09771BB</string>
-				<string>F2F5A0C8DABC60B73A9D03F4</string>
-				<string>4679BA41E605D259DA57CD03</string>
-				<string>CA6E037D7262E404B84A8582</string>
-				<string>E92234F9E4BAFC19845929E6</string>
-				<string>9F6BF55A68C2210E52292979</string>
-				<string>D581C78D322C13C9390AC6E1</string>
-				<string>9D4E36A54824E29A3B46F2AB</string>
-				<string>A9F8103853272D87D8E0A302</string>
-			</array>
+			<key>dependencies</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>IQParseSDK</string>
+			<string>CrashLog</string>
+			<key>productName</key>
+			<string>CrashLog</string>
+			<key>productReference</key>
+			<string>850A9AAE3CF0B3D9CA55EC59</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
+		</dict>
+		<key>6E0F4D497A7B2A57614A4C31</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-Tests-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9BD4F2FB3FC6EA6E9CECADF5</key>
+		<key>6E3DE23F31D7108B1E894416</key>
 		<dict>
-			<key>fileRef</key>
-			<string>0FBBA0B6D59158EAABC62F8D</string>
+			<key>buildConfigurationList</key>
+			<string>4FF7D90143F47674968471B2</string>
+			<key>buildPhases</key>
+			<array>
+				<string>4AE467912989C63AAFDD7098</string>
+				<string>03F3F1848B402CCB4562F2A4</string>
+				<string>92732F88F683175F6B167391</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Tests-FBSnapshotTestCase</string>
+			<key>productName</key>
+			<string>Pods-Tests-FBSnapshotTestCase</string>
+			<key>productReference</key>
+			<string>02AB973553AC17548C2F38BC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>9C8402CF7B067E9C8698788B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D4DC51A5C30DEA65B4ACC51</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9C8EFA30597A31827FD44F14</key>
+		<key>6E639B5AB01C0861D9B668DF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2401,111 +1546,30 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9D4E36A54824E29A3B46F2AB</key>
+		<key>6EE97A1CA49E3B64759CC3E8</key>
 		<dict>
-			<key>includeInIndex</key>
+			<key>containerPortal</key>
+			<string>A74DDAEEE5BB3BB767C63D4F</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
 			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQ_Parse.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_Parse.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<key>remoteGlobalIDString</key>
+			<string>6B842A2EC9CF3CD518686B62</string>
+			<key>remoteInfo</key>
+			<string>CrashLog</string>
 		</dict>
-		<key>9E202322FB79485367A0B5B3</key>
+		<key>7082AC6F9DDFE63E7F34D977</key>
 		<dict>
 			<key>fileRef</key>
-			<string>356DBA805088EAF74856E698</string>
+			<string>FE5859F238F401CB6287E2AE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9E458C6D4D71CFF93E252BFC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>669384DDE8EFACECC593D5FD</string>
-				<string>02C105A243C8C42D068D213A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9E5F523030E0F22A4139B47A</key>
+		<key>7141435027BEB693636EFFB9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6FF3204145A1BE83BB6FB1B1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9E84396510D773D5BEAFC696</key>
-		<dict>
-			<key>fileRef</key>
-			<string>59206E66415CB08B708718B6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9F42CF03EF088A294AF8E05A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0D1BB5D3D9E00969DB65D36</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9F6BF55A68C2210E52292979</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQ_PFUser.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFUser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A15EF3AF90A25A0822499241</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7D7CFA34D156BC6FF997BEE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A233BBF752B0B6376A05CC48</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2EA3C8781CDED17322B4A211</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A24937E396AEBF94045CD24D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-CrashLogManager-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A447B979EF11174B30FCA2EC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73E45CB01A721BB859F62049</string>
+			<string>42E2A7E033B9F814D6A9B59A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2514,17 +1578,127 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>A4AD8265E19DBC7C156F426D</key>
+		<key>71E5B6C9EAC09D9C64001329</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8AFA997843332AD59D9E6BE6</string>
+			<string>ABB1A45167C73CEFB0DCD6FC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A548455797D1AFFCFD4DFEB8</key>
+		<key>71FA9D9BE84474FF19C476D9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A457553953EB543B2865B5A6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7575B4002001AC0F333AF823</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQ_PFGeoPoint.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFGeoPoint.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>759038A1773592718BF6A126</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F672C4AEC4944B4963AFDA69</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>76B8741838CD4B9B4DC13068</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>CrashLog</string>
+			<key>target</key>
+			<string>6B842A2EC9CF3CD518686B62</string>
+			<key>targetProxy</key>
+			<string>6EE97A1CA49E3B64759CC3E8</string>
+		</dict>
+		<key>78B923CA3B3AE443CCEA08D5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E639B5AB01C0861D9B668DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>790FF589ADDA8F9EB46F8B4F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5552483F8615CFEB9BF9ACC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7932A08495B0C6E1F3AF4E4F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>01FABCD582211F39B239B656</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>79382860F48A222426AE41B7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8002F5E483AFDD405CE9347D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>7A253586CA06B043D68899C6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1183196CC52AA01900B15CEC</string>
+				<string>33BB9145FF4330535F392950</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7B713FF1A8C0F3377256B0B1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DEA12585BB7F90471FA4059C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7CC9AF2295D3D83F2EE761E1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7DC708787AD47AC5681C084A</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>1C62EE41FB45DD224FCAAA2E</string>
+			<string>3C6829DA4E840DFA29BB3AFE</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -2569,45 +1743,27 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>A5DE7D82ABDA4BBD3D906A84</key>
+		<key>7DDE2A7591C404EF63DF0368</key>
 		<dict>
-			<key>fileRef</key>
-			<string>73E45CB01A721BB859F62049</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-Tests-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A7DE2DF33907B70E2B631063</key>
+		<key>7DDEC9FE85B708D35F251E0C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B7BBD5C6326001017712B92B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>A800B656E54C9D3C38FA910A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2EA3C8781CDED17322B4A211</string>
+			<string>CB959AEBC841E2ED3B3F0BAF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A8AFA88629F1B0623EB0B7A0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B5ACF83A928C563274BA3393</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A9F8103853272D87D8E0A302</key>
+		<key>8002F5E483AFDD405CE9347D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2616,56 +1772,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQ_Parse.m</string>
+			<string>IQPFHTTPServiceConstants.m</string>
 			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_Parse.m</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQPFHTTPServiceConstants.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AB4BFE2BE4DEAC2AEC9A7ED6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4ECCC0805CDD4721FDAA8FA1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AB8BA2EA2F19EE8E65058036</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F86D3A919FF3EC5051D4A8B2</string>
-			<key>buildPhases</key>
-			<array>
-				<string>412EF641942FFBBAB9DADF12</string>
-				<string>8AFAAB0C997FFD4F0B9043D3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>FC794EFF7B970D2DF87F5B08</string>
-				<string>DC87F972F87B23DEF8D387FB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>B0A2D45C32FC6EA1C11DB9D9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>AEAF615AAC997BFDD2D29539</key>
+		<key>805587C7599F8D0F9B05A871</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F349709EC9DC84D938CEF17C</string>
+			<string>4CA233831546FB06B9FA62C7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2674,20 +1790,19 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>B081D42E81CA81C4268BD80D</key>
+		<key>80EBA53BB34CA6895B7C7BD1</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>995BD861782FAE8B3A734BBD</string>
+			<key>fileRef</key>
+			<string>E23AB400E39991C82D48BA1C</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>674D29EC840F7302ADDEFF13</string>
-			<key>remoteInfo</key>
-			<string>CrashLog</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
 		</dict>
-		<key>B095A3912548B16971D59471</key>
+		<key>80FD75EDB40D53E3083CE13B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2695,12 +1810,27 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQ_PFObject.h</string>
 			<key>path</key>
-			<string>UIImage+Diff.h</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFObject.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B0A2D45C32FC6EA1C11DB9D9</key>
+		<key>81616C0DA892744DDA3B4F12</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-CrashLogManager-CrashLogManager-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>818AAEE18328D19062AE9ED2</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -2713,22 +1843,163 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>B5ACF83A928C563274BA3393</key>
+		<key>827D15D52479D4E4EDC4B8E0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ED91549F40875EF0D6924C0E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>828016FD9D4FCE4C48102093</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F23F721ED035C96E51D45A1E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>832ED270A1D1CC39B139677C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F23F721ED035C96E51D45A1E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>850A9AAE3CF0B3D9CA55EC59</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>CrashLog.bundle</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>85DA7C506B159944BF87FD00</key>
+		<dict>
+			<key>fileRef</key>
+			<string>44C0449B0B9A94DC614A5F8B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>85EA0D20E078F43A1248585E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>867F33445FB85B7BCF040419</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQPFHTTPServiceConstants.h</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQPFHTTPServiceConstants.h</string>
+			<string>Pods-Tests-FBSnapshotTestCase-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B7BBD5C6326001017712B92B</key>
+		<key>86B2ED42C07F6F6CA43E08F4</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>527CB71331508C3A8BF2BBC7</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8706B28765DB1B9DA0AE139D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>CB01AF020D253685055C1F4C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>1BD028E520E99B4445E85808</string>
+				<string>BF87627DF20E9271099CB6FC</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>63EBB91CF71A49348AB62A40</string>
+				<string>22A2A375479D6B9B9EC9916B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Tests</string>
+			<key>productName</key>
+			<string>Pods-Tests</string>
+			<key>productReference</key>
+			<string>818AAEE18328D19062AE9ED2</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>88050EE763DD0CA6198D88F1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2737,13 +2008,632 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>CrashLog.m</string>
+			<string>IQ_PFGeoPoint.m</string>
 			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/CrashLog.m</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFGeoPoint.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B7D2A70EAB859BF01D7F0C77</key>
+		<key>888F9A063F61AE10260E1638</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B53CC21CA1684B37F82B4049</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8B63124FED323A3998A3229B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4DD684FD96E61F94A783A680</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>8C69F4A57A4F5F45A7448604</key>
+		<dict>
+			<key>fileRef</key>
+			<string>94B8AD8BA00DA7164672BFF9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8DFDE9F9BFDE0C5014BA5B46</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>8F9716C949FC61044014E518</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FE5859F238F401CB6287E2AE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>92732F88F683175F6B167391</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B64BE5E7E50401E6DB784A3D</string>
+				<string>99EC4F21C22A4F597C2B92B8</string>
+				<string>E17D0C1621577F0FB66EEA3D</string>
+				<string>E8BE4B504623029DCD01F57A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9371BCCF56CF26B2103B9703</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3822D8E5A2A7996D937B724F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>9489162393C9EAA5BDDD25D8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BB608A6AC64A961CDE1590DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>94B8AD8BA00DA7164672BFF9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-CrashLogManager-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>957431DCBDADD344BA6F842F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CB959AEBC841E2ED3B3F0BAF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>968F1897E0A4D4C46B080F26</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D1A50BD025ED6FCBE956506E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>96D8B2A6ABE5AFEDDEF28D92</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>96E7618CFD342222ADE1C877</key>
+		<dict>
+			<key>fileRef</key>
+			<string>18B1D4D04624130CE05E6962</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>98A460ED3B62944232597C83</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Tests-FBSnapshotTestCase.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>99620BF23520A4A4867C0392</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FDCB7157E37C3CFBB10545C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>99EC4F21C22A4F597C2B92B8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>572A2017560869EE3DF41472</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9B14EBB3A49E03CFAB64E511</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>98A460ED3B62944232597C83</string>
+				<string>867F33445FB85B7BCF040419</string>
+				<string>2ACC6AB35ECBA2EA1096638A</string>
+				<string>EB342D17A3E9FDF0A7C5A602</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-Tests-FBSnapshotTestCase</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9B8FAA4A7983056DA291EFB2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Pods-Tests-CrashLogManager-prefix.pch</string>
+			<key>path</key>
+			<string>../Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9B9832A11D74BC48860263C2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FC6562F1C9680C30FC350F0F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C287D889E501BD936422A19</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQMultipartFormData.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQMultipartFormData.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9EA84F6916D80582D7762A9C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6A89101C0EA8D1B61D2FE4E7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A041F6930EE2DDD6251A308F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CF9FDA196E880C9A95D1C553</string>
+				<string>17E61F6B2805F70578084709</string>
+				<string>5339CC068F941EE1E1D2DFDF</string>
+				<string>F33F17AC62744CDFA51F6EF6</string>
+				<string>428A7DFDAD1A023D31DF6316</string>
+				<string>E208A0D768A5C6C986F856EA</string>
+				<string>790FF589ADDA8F9EB46F8B4F</string>
+				<string>EE111F725C8AF0C74E7C100E</string>
+				<string>71FA9D9BE84474FF19C476D9</string>
+				<string>502FEBBB92305A74A15D397A</string>
+				<string>AE1B8B3DAD33AA3AC3FEDF44</string>
+				<string>CE467FE3B1A48FB0145F53DB</string>
+				<string>44EBFB650E139F7AEB412FD7</string>
+				<string>07F408C2A074E1334935BA6B</string>
+				<string>26D7224A71C0A2DF84B53168</string>
+				<string>CD3A70DB0E3CE6298CDFCEC4</string>
+				<string>38DA07E5E268179EEB97B009</string>
+				<string>8F9716C949FC61044014E518</string>
+				<string>334D0130D2FFC5D13636EEEA</string>
+				<string>7DDEC9FE85B708D35F251E0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A0A6E9BE48BDCD6F545A3B3D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-CrashLogManager-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A1EDAC1C21ECB8F8F8D3A501</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F618642716C911AC0D445AE3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>A20C7399A006069DDE4C3DE6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A24F525BEE11CA0382C21A75</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EA2D8FC900CF7C5408B899F8</string>
+				<string>2368C449AC48D3154900F52C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>A35DBF46ADC602A730CA4E43</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3822D8E5A2A7996D937B724F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>A40EA1898FBD55A41AA97834</key>
+		<dict>
+			<key>fileRef</key>
+			<string>85EA0D20E078F43A1248585E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A457553953EB543B2865B5A6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQ_PFACL.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFACL.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A4AD10FD0FA72A19D342EFF6</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-CrashLogManager-CrashLogManager.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>A4FFA4764F7D471B35C26032</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B5744D1668469FA5CA42F6A1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>A5A6362924A2D08C4B37645D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5552483F8615CFEB9BF9ACC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A603879D9076468FEAE47E18</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F4D875EF72839F8941A3B83C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>A63BC265E69BE86546230577</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4DD684FD96E61F94A783A680</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>A74DDAEEE5BB3BB767C63D4F</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>CB3A34148840AEA2A0551A2E</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>028310FE7B44B5B83CCEF179</string>
+			<key>productRefGroup</key>
+			<string>462506E11FBAA555A3EAC182</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>6B842A2EC9CF3CD518686B62</string>
+				<string>B36965CD8C94F6FB4495697F</string>
+				<string>EA0376E2E8CAD949F6E8BF30</string>
+				<string>8706B28765DB1B9DA0AE139D</string>
+				<string>2CD946EEB3ED4B3C795C87A5</string>
+				<string>6E3DE23F31D7108B1E894416</string>
+			</array>
+		</dict>
+		<key>A7547522579CEF8A27E9395E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3D478A663006401B333F16FA</string>
+				<string>4C9A888A6015FCF12DB49E67</string>
+				<string>2347EBCD6866444932784BF6</string>
+				<string>4C987952BA9C4A9BD29FCDE9</string>
+				<string>0D6AC2271848C7977C324628</string>
+				<string>9B9832A11D74BC48860263C2</string>
+				<string>A5A6362924A2D08C4B37645D</string>
+				<string>85DA7C506B159944BF87FD00</string>
+				<string>F222A2EA5062625A81E572DB</string>
+				<string>5174189C9C8F28BADC8AEE74</string>
+				<string>71E5B6C9EAC09D9C64001329</string>
+				<string>47278EC3977B1BBE98E699DA</string>
+				<string>164EC25CF54DA2B7CF5E97A4</string>
+				<string>888F9A063F61AE10260E1638</string>
+				<string>1EBC6C8A5566BBA3552038FD</string>
+				<string>78B923CA3B3AE443CCEA08D5</string>
+				<string>F9B9F30C336612D578E10135</string>
+				<string>7082AC6F9DDFE63E7F34D977</string>
+				<string>7B713FF1A8C0F3377256B0B1</string>
+				<string>957431DCBDADD344BA6F842F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A7E54A886B1D05311D5327B4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FDCB7157E37C3CFBB10545C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>ABB1A45167C73CEFB0DCD6FC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQ_PFConstants.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFConstants.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AC3615D76EE2F82B2A1EEA48</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>218774FFB964FD97906BEA8F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>ACCDA41EA86881C4CEF91AAD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6E0F4D497A7B2A57614A4C31</string>
+				<string>7DDE2A7591C404EF63DF0368</string>
+				<string>0C14F07EEA5EEF58FBB3AC93</string>
+				<string>EE1D247CFBBDEC98B2B16566</string>
+				<string>E5F462CFBA63C472785FF58C</string>
+				<string>527CB71331508C3A8BF2BBC7</string>
+				<string>3C6829DA4E840DFA29BB3AFE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-Tests</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-Tests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AE1B8B3DAD33AA3AC3FEDF44</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ABB1A45167C73CEFB0DCD6FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AFBEFFDD061D9CF95B3197C3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIImage+Diff.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B0E7E38589432E1EB3F83D93</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Tests-CrashLogManager.xcconfig</string>
+			<key>path</key>
+			<string>../Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B264460BA33387031FB3EF65</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -2759,16 +2649,59 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Debug</string>
 		</dict>
-		<key>B8A1BDA2A9A61893087738CB</key>
+		<key>B30FA8850FE000D16CA1AB55</key>
 		<dict>
 			<key>fileRef</key>
-			<string>36A9D6E32B6F11C78514A947</string>
+			<string>46C8BEF356CBB0E9F6BBBF7D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
 		</dict>
-		<key>B978F5DF8CA36EABCC47F207</key>
+		<key>B36965CD8C94F6FB4495697F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6229B469ECBB8AE87267F15A</string>
+			<key>buildPhases</key>
+			<array>
+				<string>ED305491A7117A79ABCAE05B</string>
+				<string>3EE8D4D5A601272FD8FFFABD</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>FB5994AB7D8BDADC4CADA390</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-CrashLogManager</string>
+			<key>productName</key>
+			<string>Pods-CrashLogManager</string>
+			<key>productReference</key>
+			<string>02942A980BC5752C4B26897A</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>B52FE69D2DD72430EEC83F65</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D1A50BD025ED6FCBE956506E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>B53CC21CA1684B37F82B4049</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2783,49 +2716,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B9B4E8F979690E70ACE93553</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E482325E898CC10C7946BCC2</string>
-				<string>5994D98056255C5B4AE38472</string>
-				<string>13E40FADFE6F740BFBF78448</string>
-				<string>B0A2D45C32FC6EA1C11DB9D9</string>
-				<string>8F20075433D821A46E7F9919</string>
-				<string>7129EAC6EDF2331B0054FC70</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA2C3A1FD79E3C396B7FC456</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>CrashLog</string>
-			<key>target</key>
-			<string>674D29EC840F7302ADDEFF13</string>
-			<key>targetProxy</key>
-			<string>9638FE04E5912D3832D91532</string>
-		</dict>
-		<key>BC0DE0ADCC575FEF8210E3D8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-CrashLogManager-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCB8002B1026CF767317728E</key>
+		<key>B5744D1668469FA5CA42F6A1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2834,479 +2725,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQMultipartFormData.m</string>
+			<string>IQ_PFACL.m</string>
 			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQMultipartFormData.m</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFACL.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BEB4CD6BB99519FAA1EDE3D6</key>
+		<key>B64BE5E7E50401E6DB784A3D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7C8F4BBDAF187091B968187B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>BF8AC9EE068C5BC558D18697</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E5CBB7D9BE5BE8B1C6E52210</string>
-				<string>F39B6715F071607377751A0B</string>
-				<string>6D108FE36E1A02773CAA8564</string>
-				<string>94BEDEE16B527F3DA22DFBA8</string>
-				<string>B9B4E8F979690E70ACE93553</string>
-				<string>66AAE94428FFFF5AE64935A0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0D1BB5D3D9E00969DB65D36</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E34EF583FF6A873ECC27EE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D168E2454F2B263A743C81ED</string>
-				<string>449129A5C95E6C3C6CFB706F</string>
-				<string>762247720DEB81D14B2EE534</string>
-				<string>D7B13430542CAB237ACDCA3A</string>
-				<string>EA748D7D59E510C60783D3A7</string>
-				<string>8984AEDB2951017996B235AF</string>
-				<string>788D2F9943DC8F15E1B032C6</string>
-				<string>A5DE7D82ABDA4BBD3D906A84</string>
-				<string>BEB4CD6BB99519FAA1EDE3D6</string>
-				<string>F5C478BBECFF3589D8813749</string>
-				<string>9BD4F2FB3FC6EA6E9CECADF5</string>
-				<string>D672FAD23C5393A8399E3865</string>
-				<string>2E344BB9FDB532FD8B9297D5</string>
-				<string>F19B55C70C44C611527EE1B7</string>
-				<string>C29B07A60CD23E289D300716</string>
-				<string>98A6519E7965725E9F98BA8F</string>
-				<string>01612A57D6A0D57BA8DBE326</string>
-				<string>83BB88EF0F429B8B5849FE89</string>
-				<string>95A491EB31728DCF879B7C17</string>
-				<string>F2FDE6FA72E3AFCFEAFA611C</string>
-				<string>EBBADD915D74ACCFF3C3BCBA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C23186BB66195E8C75B719D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C8F4BBDAF187091B968187B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>C29B07A60CD23E289D300716</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DB8428E6BBE39FF55578D9A9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>C52D22C5C1BAA72254BBB688</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIImage+Compare.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C556EB75B3136A9D66A0BF22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E92234F9E4BAFC19845929E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>C5CC306E38587AFDC89A6535</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C74A1F54FF6D75DCC094E2BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C753596E77E2373EC05325DB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CrashLogManager.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C8274F2FB7D4CDA04AB3CFE1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D4DC51A5C30DEA65B4ACC51</string>
+			<string>A20C7399A006069DDE4C3DE6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>CA6E037D7262E404B84A8582</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IQ_PFRole.h</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFRole.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CAADAA9D23AD266F5FD59C43</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-CrashLogManager-CrashLogManager</string>
-			<key>target</key>
-			<string>570126CAF5F3A9CA94CAD9B7</string>
-			<key>targetProxy</key>
-			<string>29C32DDFFD5AFF09A3F2D488</string>
-		</dict>
-		<key>D168E2454F2B263A743C81ED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7BBD5C6326001017712B92B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>D201A7E3FDE1646EC65E46DD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C753596E77E2373EC05325DB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D581C78D322C13C9390AC6E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQ_PFUser.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFUser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D672FAD23C5393A8399E3865</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7996DE134EAD77EC5EADCB2F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>D7B13430542CAB237ACDCA3A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BCB8002B1026CF767317728E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>D873F51CD038B30B9BE879A9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>844BBC76427B246841F899AE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D8E1A8890A15ED0C605E6FEE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9E84396510D773D5BEAFC696</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DA951F40F3748794B728D3D4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F6BF55A68C2210E52292979</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DB63BBC7CBF49EE1B2AB0E4E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C8EFA30597A31827FD44F14</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DB8428E6BBE39FF55578D9A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQ_PFObject.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFObject.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBC3805FCA3B302377264A1A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIImage+Diff.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC87F972F87B23DEF8D387FB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-FBSnapshotTestCase</string>
-			<key>target</key>
-			<string>62AC366F48FB14CEBB35FE3D</string>
-			<key>targetProxy</key>
-			<string>32099E61F03D4510EF2331FC</string>
-		</dict>
-		<key>DF1E930A60DCF34885FDD233</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D4E36A54824E29A3B46F2AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DF2CB8EF3B831D1044534F99</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQ_PFGeoPoint.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFGeoPoint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2B39834E92CA5D0D79CF14F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E482325E898CC10C7946BCC2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CrashLog.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E595CA5921216388CD5B0C76</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FF6C8186E7AB2CB3E6B86577</string>
-				<string>B7D2A70EAB859BF01D7F0C77</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E5CBB7D9BE5BE8B1C6E52210</key>
+		<key>B93693000D3732A9B641F2EB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3323,40 +2755,7 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>E7D7CFA34D156BC6FF997BEE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-CrashLogManager-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E86D13F866743DD1C2773131</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-FBSnapshotTestCase-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8859A54105286D703E95CA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C74A1F54FF6D75DCC094E2BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E92234F9E4BAFC19845929E6</key>
+		<key>BB608A6AC64A961CDE1590DF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3365,16 +2764,23 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>IQ_PFRole.m</string>
+			<string>IQ_PFCloud.m</string>
 			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFRole.m</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFCloud.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EA748D7D59E510C60783D3A7</key>
+		<key>BBFFFF45A6865155AFAF0836</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5697F6D2C1AB15308CF02822</string>
+			<string>0C14F07EEA5EEF58FBB3AC93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BCF4477E3F286703F6205357</key>
+		<dict>
+			<key>fileRef</key>
+			<string>654C5D60C84EF2578F45036F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3383,54 +2789,53 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>EB4BC8C7878D2C20B09DA88E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B6EEACFCCC75236D09771BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>EBBADD915D74ACCFF3C3BCBA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1C5E2987F5ED95A1200E9B13</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF74924557AD32D46DF95723</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5697F6D2C1AB15308CF02822</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>F0EFFE8136DC384C1CFA77A6</key>
+		<key>BF87627DF20E9271099CB6FC</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>A15EF3AF90A25A0822499241</string>
+				<string>CD0F9164904AE4F7E77F85CA</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>F19B55C70C44C611527EE1B7</key>
+		<key>C1B09A0AADE9B449C950B57B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQ_PFCloud.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFCloud.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5552483F8615CFEB9BF9ACC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQURLConnection.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQURLConnection.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C58177CB3D5D15DDA8CE548A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>00D6DF9DAC1477CA757976FA</string>
+			<string>F4D875EF72839F8941A3B83C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3439,10 +2844,25 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>F1CF19378EB266BDF652F8CA</key>
+		<key>C678D43D23E6960DF14A25A0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Tests-CrashLogManager-Private.xcconfig</string>
+			<key>path</key>
+			<string>../Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C6C65D5EC1C06E5358BB9F39</key>
 		<dict>
 			<key>fileRef</key>
-			<string>29961FF56F958EE90B92EFC7</string>
+			<string>8002F5E483AFDD405CE9347D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3451,7 +2871,196 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>F21AAB59AE4C28F402F39BBC</key>
+		<key>C7CD39F29932F811751307C7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>Pods-Tests-CrashLogManager-dummy.m</string>
+			<key>path</key>
+			<string>../Pods-Tests-CrashLogManager/Pods-Tests-CrashLogManager-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CB01AF020D253685055C1F4C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>86B2ED42C07F6F6CA43E08F4</string>
+				<string>7DC708787AD47AC5681C084A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>CB3A34148840AEA2A0551A2E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>459BD9F4E8D51661809DA4BF</string>
+				<string>29E0C007F9614920C5027B72</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>CB804E4F1E7DA874AA116462</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>A74DDAEEE5BB3BB767C63D4F</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>EA0376E2E8CAD949F6E8BF30</string>
+			<key>remoteInfo</key>
+			<string>Pods-CrashLogManager-CrashLogManager</string>
+		</dict>
+		<key>CB85D35D931942967D4E4475</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-CrashLogManager-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CB959AEBC841E2ED3B3F0BAF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQ_Parse.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_Parse.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC15A6984C174C2E6C6A6D7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>88050EE763DD0CA6198D88F1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>CC4E1D1704E679F966CA2B84</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4CA233831546FB06B9FA62C7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>CC58255229DF70718A8288C7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A40EA1898FBD55A41AA97834</string>
+				<string>759038A1773592718BF6A126</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CD0F9164904AE4F7E77F85CA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>85EA0D20E078F43A1248585E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CD3A70DB0E3CE6298CDFCEC4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E639B5AB01C0861D9B668DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CE467FE3B1A48FB0145F53DB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DE2F8EB07EBF03A00A7410B2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CF9FDA196E880C9A95D1C553</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DB2EE3AD3E154AB056984073</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D09FA46611E5388FE0462A0E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3CE02DA69C7CC7B674F4D873</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>D1A50BD025ED6FCBE956506E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQ_PFRelation.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFRelation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D9A2CC340F2E8C73F06BF15A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>20781BC60C13844ACDFBF2A9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>DB2EE3AD3E154AB056984073</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3466,19 +3075,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F2C5251B2958786B081D809E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8F3B306B3B6BD99932BE7C12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>F2F5A0C8DABC60B73A9D03F4</key>
+		<key>DE2F8EB07EBF03A00A7410B2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3487,120 +3084,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IQ_PFRelation.h</string>
+			<string>IQ_PFFile.h</string>
 			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFRelation.h</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFFile.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F2FDE6FA72E3AFCFEAFA611C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A9F8103853272D87D8E0A302</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>F309AE19C22A44329C587EF3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13367F9DFF09D241F381CB80</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F32BAF30672581644D37CBC1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-FBSnapshotTestCase-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F349709EC9DC84D938CEF17C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IQPFHTTPServiceConstants.m</string>
-			<key>path</key>
-			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQPFHTTPServiceConstants.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F370E68CA0BB20606CDA267F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>59206E66415CB08B708718B6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F39B6715F071607377751A0B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>23AC920704E71A8714CAE68A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F44B645395A939D7BCD794E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C8EFA30597A31827FD44F14</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5C478BBECFF3589D8813749</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B82224D5B986B2F9FAAE08D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>F86D3A919FF3EC5051D4A8B2</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D873F51CD038B30B9BE879A9</string>
-				<string>A548455797D1AFFCFD4DFEB8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FA5F0EB0B07C24F6381418A6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>28C0AFFDAABFF11EF112B2DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FADA3B01C209ADD458C1DB90</key>
+		<key>DEA12585BB7F90471FA4059C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3608,29 +3098,281 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQ_PFUser.h</string>
 			<key>path</key>
-			<string>Pods-CrashLogManager-CrashLogManager-prefix.pch</string>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFUser.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FB458E9631036A21CEFD805F</key>
+		<key>DED766CFC263A01ACB8E2A3B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>88050EE763DD0CA6198D88F1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>DF8A021E2FDE387A0FC9D9AB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8DFDE9F9BFDE0C5014BA5B46</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E09AB6A4397D6F962A2E6A9F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C7CD39F29932F811751307C7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E17D0C1621577F0FB66EEA3D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0BEEF1967BFD42665B617A6E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E208A0D768A5C6C986F856EA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FC6562F1C9680C30FC350F0F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E2361D3513FF7AEEDF23C285</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E23AB400E39991C82D48BA1C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>E23AB400E39991C82D48BA1C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQ_PFConstants.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFConstants.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E3BDFAC63C337E62845D8524</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>59206E66415CB08B708718B6</string>
-				<string>6977F0797DEDCC51127501DA</string>
+				<string>0482DF7460923873ADA3A9B2</string>
+				<string>654C5D60C84EF2578F45036F</string>
+				<string>EE88EAE693CDD800FC32C96E</string>
+				<string>4DD684FD96E61F94A783A680</string>
+				<string>9C287D889E501BD936422A19</string>
+				<string>42E2A7E033B9F814D6A9B59A</string>
+				<string>FC6EF002F03B430B70416DC3</string>
+				<string>3822D8E5A2A7996D937B724F</string>
+				<string>FC6562F1C9680C30FC350F0F</string>
+				<string>8002F5E483AFDD405CE9347D</string>
+				<string>C5552483F8615CFEB9BF9ACC</string>
+				<string>20781BC60C13844ACDFBF2A9</string>
+				<string>44C0449B0B9A94DC614A5F8B</string>
+				<string>01FABCD582211F39B239B656</string>
+				<string>A457553953EB543B2865B5A6</string>
+				<string>B5744D1668469FA5CA42F6A1</string>
+				<string>C1B09A0AADE9B449C950B57B</string>
+				<string>BB608A6AC64A961CDE1590DF</string>
+				<string>ABB1A45167C73CEFB0DCD6FC</string>
+				<string>E23AB400E39991C82D48BA1C</string>
+				<string>DE2F8EB07EBF03A00A7410B2</string>
+				<string>F2C608C8F1207CDB9B35CB84</string>
+				<string>7575B4002001AC0F333AF823</string>
+				<string>88050EE763DD0CA6198D88F1</string>
+				<string>B53CC21CA1684B37F82B4049</string>
+				<string>46C8BEF356CBB0E9F6BBBF7D</string>
+				<string>80FD75EDB40D53E3083CE13B</string>
+				<string>4CA233831546FB06B9FA62C7</string>
+				<string>6E639B5AB01C0861D9B668DF</string>
+				<string>F4D875EF72839F8941A3B83C</string>
+				<string>62120A50718AAAA0C7626E72</string>
+				<string>D1A50BD025ED6FCBE956506E</string>
+				<string>FE5859F238F401CB6287E2AE</string>
+				<string>F23F721ED035C96E51D45A1E</string>
+				<string>DEA12585BB7F90471FA4059C</string>
+				<string>ED91549F40875EF0D6924C0E</string>
+				<string>CB959AEBC841E2ED3B3F0BAF</string>
+				<string>3CE02DA69C7CC7B674F4D873</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>iOS</string>
+			<string>IQParseSDK</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FB8FC1C8654912F3C6EB7B84</key>
+		<key>E5F462CFBA63C472785FF58C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-Tests-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E6811F27BA14A8FD01185B67</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B5744D1668469FA5CA42F6A1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>E78AB1597A7A407E5A255BD7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E8BE4B504623029DCD01F57A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AFBEFFDD061D9CF95B3197C3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EA0376E2E8CAD949F6E8BF30</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>A24F525BEE11CA0382C21A75</string>
+			<key>buildPhases</key>
+			<array>
+				<string>141285CE4114F2C115070D79</string>
+				<string>7A253586CA06B043D68899C6</string>
+				<string>A7547522579CEF8A27E9395E</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>26F3765FAB1152FFC3B1233D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-CrashLogManager-CrashLogManager</string>
+			<key>productName</key>
+			<string>Pods-CrashLogManager-CrashLogManager</string>
+			<key>productReference</key>
+			<string>A4AD10FD0FA72A19D342EFF6</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>EA2D8FC900CF7C5408B899F8</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>11A8FD910B5A5BCED9881DB5</string>
+			<string>39BE99793DB48E3E78A14C73</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-CrashLogManager-CrashLogManager/Pods-CrashLogManager-CrashLogManager-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EB342D17A3E9FDF0A7C5A602</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Tests-FBSnapshotTestCase-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EC1E3E18AD9A2ADA482B5B97</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>A74DDAEEE5BB3BB767C63D4F</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>6B842A2EC9CF3CD518686B62</string>
+			<key>remoteInfo</key>
+			<string>CrashLog</string>
+		</dict>
+		<key>ECA443375CE677359FEF6FD1</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>867F33445FB85B7BCF040419</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -3676,21 +3418,10 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>FC794EFF7B970D2DF87F5B08</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-CrashLogManager</string>
-			<key>target</key>
-			<string>25A96CBD114390333DF0A80B</string>
-			<key>targetProxy</key>
-			<string>4563233B33E9E51EF1E01571</string>
-		</dict>
-		<key>FCF171E2079C73C52449A50D</key>
+		<key>ECFF60377461AC2D5A79CC62</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DBC3805FCA3B302377264A1A</string>
+			<string>F2C608C8F1207CDB9B35CB84</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3699,33 +3430,332 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-		<key>FF0B751F25961B837EE0A0D2</key>
+		<key>ED305491A7117A79ABCAE05B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8C69F4A57A4F5F45A7448604</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>ED751495FE43C80CB23EFAC6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CA6E037D7262E404B84A8582</string>
+			<string>654C5D60C84EF2578F45036F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>ED91549F40875EF0D6924C0E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQ_PFUser.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFUser.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE111F725C8AF0C74E7C100E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>44C0449B0B9A94DC614A5F8B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>FF6C8186E7AB2CB3E6B86577</key>
+		<key>EE1D247CFBBDEC98B2B16566</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Tests-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE88EAE693CDD800FC32C96E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQHTTPService.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQHTTPService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFB4C2DAB6098FBC858477EE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2ACC6AB35ECBA2EA1096638A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F222A2EA5062625A81E572DB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A457553953EB543B2865B5A6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F23F721ED035C96E51D45A1E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQ_PFRole.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFRole.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F2C608C8F1207CDB9B35CB84</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQ_PFFile.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFFile.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F33F17AC62744CDFA51F6EF6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C287D889E501BD936422A19</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F42BEE8C1F31C5D93188E1F0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>81616C0DA892744DDA3B4F12</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F4D875EF72839F8941A3B83C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IQ_PFQuery.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFQuery.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F618642716C911AC0D445AE3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FBSnapshotTestController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F672C4AEC4944B4963AFDA69</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MobileCoreServices.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>F9B9F30C336612D578E10135</key>
+		<dict>
+			<key>fileRef</key>
+			<string>62120A50718AAAA0C7626E72</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FB5994AB7D8BDADC4CADA390</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-CrashLogManager-CrashLogManager</string>
+			<key>target</key>
+			<string>EA0376E2E8CAD949F6E8BF30</string>
+			<key>targetProxy</key>
+			<string>CB804E4F1E7DA874AA116462</string>
+		</dict>
+		<key>FC6562F1C9680C30FC350F0F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQPFHTTPServiceConstants.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQPFHTTPServiceConstants.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FC6EF002F03B430B70416DC3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQPFHTTPService.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQPFHTTPService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FD350F2137CD86375200EB06</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>659061026E15EFC0DAE06D5A</string>
 			<key>buildSettings</key>
 			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
 				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
 				<string>$(TARGET_NAME)</string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>FDCB7157E37C3CFBB10545C1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CrashLog.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/CrashLog.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FE5859F238F401CB6287E2AE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IQ_PFRole.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CrashLogManager/IQParseSDK/IQ_PFRole.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FEC6CEDD220FBB4B4ADC505D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>42E2A7E033B9F814D6A9B59A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>FEE12394025E3D121D68C4B1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2DFF5E3770F90EB6AECC93F4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>995BD861782FAE8B3A734BBD</string>
+	<string>A74DDAEEE5BB3BB767C63D4F</string>
 </dict>
 </plist>

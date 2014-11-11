@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
     s.name             = "CrashLogManager"
-    s.version          = "0.1.0"
+    s.version          = "0.1.1"
     s.summary          = "CrashLogManager."
 
     s.homepage         = "https://github.com/quannguyen90/CrashLogManager"
@@ -27,12 +27,13 @@ Pod::Spec.new do |s|
     s.resource_bundles = {
         'CrashLog' => ['Pod/Assets/*.png']
     }
+
     s.subspec 'IQParseSDK' do |s1|
         s1.source_files = 'Pod/Classes/CrashLogManager/IQParseSDK/*.{h,m}'
     end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+    s.frameworks = 'MobileCoreServices'
   # s.dependency 'AFNetworking', '~> 2.3'
 
 end

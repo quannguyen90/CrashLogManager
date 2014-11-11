@@ -10,11 +10,11 @@
 #define COCOAPODS_POD_AVAILABLE_CrashLogManager
 #define COCOAPODS_VERSION_MAJOR_CrashLogManager 0
 #define COCOAPODS_VERSION_MINOR_CrashLogManager 1
-#define COCOAPODS_VERSION_PATCH_CrashLogManager 0
+#define COCOAPODS_VERSION_PATCH_CrashLogManager 1
 
 // CrashLogManager/IQParseSDK
 #define COCOAPODS_POD_AVAILABLE_CrashLogManager_IQParseSDK
 #define COCOAPODS_VERSION_MAJOR_CrashLogManager_IQParseSDK 0
 #define COCOAPODS_VERSION_MINOR_CrashLogManager_IQParseSDK 1
-#define COCOAPODS_VERSION_PATCH_CrashLogManager_IQParseSDK 0
+#define COCOAPODS_VERSION_PATCH_CrashLogManager_IQParseSDK 1
 
