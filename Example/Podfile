@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'CrashLogManager', :exclusive => true do
+  pod "CrashLogManager", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "CrashLogManager", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
